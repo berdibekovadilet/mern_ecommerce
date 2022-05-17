@@ -18,6 +18,8 @@ const Info = styled.div`
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+  cursor: pointer;
 `;
 
 const Container = styled.div`
