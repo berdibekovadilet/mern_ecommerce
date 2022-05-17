@@ -33,6 +33,7 @@ const Arrow = styled.div`
 const Wrapper = styled.div`
   height: 100%;
   display: flex;
+  transition: all 1.5s ease;
   transform: translateX(${(props) => props.slideIndex * -100}vw);
 `;
 
@@ -73,7 +74,8 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
-  border-radius: 4px;
+  border: 2px solid black;
+  text-transform: uppercase;
 `;
 
 const Slider = () => {
