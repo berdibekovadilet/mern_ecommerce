@@ -84,6 +84,7 @@ const AddContainer = styled.div`
 const AmountContainer = styled.div`
   display: flex;
   align-items: center;
+  font-weight: 700;
 `;
 
 const Amount = styled.span`
@@ -95,7 +96,6 @@ const Amount = styled.span`
   align-items: center;
   justify-content: center;
   margin: 0px 5px;
-  font-weight: 700;
 `;
 
 const Button = styled.button`
@@ -104,6 +104,10 @@ const Button = styled.button`
   background-color: white;
   cursor: pointer;
   font-weight: 500;
+
+  &:hover {
+    background-color: #f8f4f4;
+  }
 `;
 
 const Product = () => {
